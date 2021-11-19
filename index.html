@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- http://www.sarkagrabovska.com/ -->
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <title>Radek Šibinský Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- <script type="text/javascript"
+        src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=akC_4C65UqMelGgOjLf1CnGQvQ3Fsve9lCpZL0DPqLDtiCLh1J5Z0Og0pu9KFF_-IY1Etg1o-F6ddvn8kQFfgxW5oeDjFGIqS_dFPUIojqJgLPqFn1RtIJh5LfQ3EUgwHruFlHegsmp-9egYPa3LDpaG_4xMTtVgs-eClgPUAVTYkQvWfUi8Soa0WXVEPMBlMkKiS7GJS3PbGn8FGRYfSt_jol0_TqTWd21ikpgHbsPuNdxIT4BaV4WMLZXYNf5I3edXTSTJKYJm1r3gTl1v8XrJKQ2XqQyYMSZrRsHUA6R9WB5pgYhNZnJbGtVFBlhbTcwuhPq7TBwzXc0mr0UakYXCrmgZaKYjn88774OGhVd8jP8Ly4gQd8LmVwH0FVd8zP5839G32NStMVuJc452t6gQ5DrQXjnQ0ZVw9SHFM0jBlFtgWMYJWOxJe2UkInRyraIbaL9IvubOmYEyRLADPg"
+        charset="UTF-8"></script>
+    <link rel="stylesheet" crossorigin="anonymous"
+        href="https://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kb2MtMTAtN3MtZG9jcy5nb29nbGV1c2VyY29udGVudC5jb20vZG9jcy9zZWN1cmVzYy9ldTAxaXE3czVhcjdkNGlzaGY5dWx0dmY0N2Y4c3VlaS9uZTg2ZWgybHM4b2ZtMXZtZ3JyNXVycTI3a3ZkMm82YS8xNjM2MzU1MzI1MDAwLzAzMDMzNDIyMjA3MDI0NzM1OTI0LzA4MjIyNjc4MjMwMzI1OTgwMDcwLzFnOHg3WEhkQ0ppdU9QQTI5YmNmeFNxU2dQZUdSXzNtZj9lPWRvd25sb2FkJmF1dGh1c2VyPTAmbm9uY2U9NTUzNGsyOXUyNW52NCZ1c2VyPTA4MjIyNjc4MjMwMzI1OTgwMDcwJmhhc2g9czBnaGwzMWwxMHNqamdncmdzb2lramduM3Fqc2FlM2w" /> -->
+</head>
+
+<body>
+    <!-- MAIN NAVIGACE -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-xl navbar-dark sticky-top">
+
+            <a href="index.html" class="navbar-brand">
+                <h3 class="mb-0 ml-5 pl-3"><span>R</span><span class="text-warning">ADEK ŠIBINSKÝ</span></h3>
+            </a>
+
+            <!-- TLACITKO HAMBURGERU, DATA TARGET PROVAZAT S ID SEZNAMEM -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a href="#showcase"
+                            class="nav-link text-success">Home</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a href="#about me"
+                            class="nav-link text-success">About me</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a href="#skills"
+                            class="nav-link text-success">Skills</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a href="#projects"
+                            class="nav-link text-success">Projects</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a href="#hobbies"
+                            class="nav-link text-success">Hobbies</a></li>
+                    <li class="nav-item" id="kontakt" data-toggle="collapse" data-target=".navbar-collapse.show"><a
+                            href="#kontakty" class="nav-link text-success">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <section id="showcase" class="d-flex justify-content-center align-items-center">
+        <div id="overlay"></div>
+        <div id="header" class="container text-dark text-center">
+            <div class="row">
+                <div class="col-xl-6 offset-xl-6">
+                    <h3 class="display-5 p-3">Hi, I am</h3>
+                    <h1 class="display-3 p-3">Radek Šibinský</h1>
+                    <h2 class="display-4 p-3">Junior Web Developer</h2>
+                    <hr class="mt-2 bg-white">
+                    <hr class="mt-2 bg-white">
+                    <p id="description" class="display-4 p-3"><em>To live and let live!</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about me" class="pt-3">
+        <div class="container shadow p-3 mb-5 bg-warning rounded text-center mt-5">
+            <h2>About me</h2>
+            <div class="row">
+                <div class="col-md-6 col-sm-4 p-3">
+                    <img src="images/RADEK foto_skype.JPG" alt="Picture of myself"
+                        class="img-fluid d-md-inline rounded-circle" id="headshot">
+                </div>
+                <div class="col-md-6 col-sm-8 p-3 pb-5">
+                    <p class="lead p-5 m-3">I discovered my passion for software programming when welding by and then
+                        training people on welding robots. I discovered possibilities of an IT world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="pt-3">
+        <div class="container shadow p-3 mb-5 bg-warning rounded text-center mt-5">
+            <h2 class=" pb-3 text-center">Skills</h2>
+
+            <div class="row justify-content-center pt-3">
+                <h3>Programming languages</h3>
+            </div>
+            <div class="row justify-content-center mb-2">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex flex-column"><img title="C#" class="skill-logo p-3" src="images/Skills/c.png"
+                                alt="C# logo" />
+                            <p>C#</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex flex-column"><img title="java" class="skill-logo p-3"
+                                src="images/Skills/java.png" alt="java logo" />
+                            <p>Java</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-3">
+                <h3>www</h3>
+            </div>
+            <div class="row justify-content-center mb-2">
+                <div class="col d-flex flex-wrap justify-content-center">
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex flex-column"><img title="HTML5" class="skill-logo p-3"
+                                src="images/Skills/html5.png" alt="HTML5" />
+                            <p>html5</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex flex-column"><img title="CSS3" class="skill-logo p-3"
+                                src="images/Skills/css3.png" alt="CSS3" />
+                            <p>CSS3</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex flex-column"><img title="javascript" class="skill-logo p-3"
+                                src="images/Skills/js - kopie.png" alt="javascript" />
+                            <p>Javascript</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex flex-column"><img title="jquery" class="skill-logo p-3"
+                                src="images/Skills/jquery - kopie.png" alt="jquery" />
+                            <p>JQuery</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex flex-column"><img title="react" class="skill-logo p-3"
+                                src="images/Skills/react.png" alt="react" />
+                            <p>React</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex flex-column"><img title="bootstrap" class="skill-logo p-3"
+                                src="images/Skills/bootstrap.png" alt="bootstrap" />
+                            <p>Bootstrap</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex flex-column"><img title="PHP" class="skill-logo p-3"
+                                src="images/Skills/php.png" alt="PHP" />
+                            <p>PHP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-3">
+                <h3>Mobile application</h3>
+            </div>
+            <div class="row justify-content-center mb-2">
+                <div class="col d-flex justify-content-center">
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex flex-column"><img title="Xamarin" class="skill-logo p-3"
+                                src="images/Skills/xamarin - kopie.png" alt="Xamarin" />
+                            <p>Xamarin</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-3">
+                <h3>Databases</h3>
+            </div>
+            <div class="row justify-content-center mb-2">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex flex-column"><img title="Access Databses" class="skill-logo p-3"
+                                src="images/Skills/access - kopie.png" alt="Access" />
+                            <p>Access</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex flex-column"><img title="SQL Server" class="skill-logo p-3"
+                                src="images/Skills/sql.png" alt="SQL server" />
+                            <p>SQL Server</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex flex-column"><img title="MySql" class="skill-logo p-3"
+                                src="images/Skills/mysql.png" alt="MySQL" />
+                            <p>MySQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="pt-3">
+        <div class="container shadow p-3 mb-5 bg-warning rounded text-center mt-5">
+            <h2>Projects</h2>
+            <div class="row mt-2">
+                <div id="projectsIkony" class="col-md-6 mt-3 bg-secondary text-success py-3">
+                    <h2>Bootstrap Project</h2>
+                    <p>Whole day web project made with </p>
+                    <img title="HTML5" class="skill-logo p-3" src="images/Skills/html5.png" alt="HTML5" />
+                    <img title="CSS3" class="skill-logo p-3" src="images/Skills/css3.png" alt="CSS3" />
+                    <img title="bootstrap" class="skill-logo p-3" src="images/Skills/bootstrap.png"
+                        alt="bootstrap" /><br>
+                    <a href="https://github.com/RaSibi/www.git" class="btn btn-lg btn-outline-success"
+                        target="_blank">Source
+                        Code</a>
+                </div>
+                <div class="col-md-6 mt-3 py-3 bg-secondary">
+                    <a href="ProjectHotel/index.html" target="_blank"><img src="images/ProjectHotel.JPG" alt="web"
+                            id="projektImg" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="pt-3">
+        <div class="container mt-5 text-center shadow p-3 mb-5 bg-warning rounded">
+            <h2>My Hobby</h2>
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8">
+                    <div id="carouselExampleCaptions" class="carousel slide p-3" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+                            <!-- <li data-target="#carouselExampleFade" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleFade" data-slide-to="4"></li> -->
+                        </ol>
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <img src="images/hobbies/19_11_30SATINSKE.jpg" class="img-fluid" alt="#">
+                                    <div class="carousel-caption">
+                                        <h5>Satinské vodopády</h5>
+                                    </div>
+                                </div>
+                                <!-- <div class="carousel-item">
+                                    <img src="images/hobbies/HlucinPrvniKoupani.jpg" class="img-fluid" alt="#">
+                                    <div class="carousel-caption">
+                                        <h5>Hlučínská štěrkovna</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/hobbies/ResovskeVodopady.jpg" class="img-fluid" alt="#">
+                                    <div class="carousel-caption">
+                                        <h5>Rešovské vodopády - Jeseníky</h5>
+                                    </div>
+                                </div> -->
+                                <div class="carousel-item">
+                                    <img src="images/hobbies/2021_02_18Radek Kalisok.jpg" class="img-fluid" alt="#">
+                                    <div class="carousel-caption">
+                                        <h5>Kališok Starý Bohumín</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/hobbies/KalisokNaprostyRelax.jpg" class="img-fluid" alt="#">
+                                    <div class="carousel-caption">
+                                        <h5>Kališok</h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleFade" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleFade" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakty" class="pt-3">
+        <div class="container text-center mt-5 shadow p-3 mb-5 bg-warning rounded">
+            <h2>Contact me</h2>
+            <!-- <form action="index.php" method="POST" id="ContactMe"> -->
+            <form action="#" method="#" id="ContactMe">
+                <div class="form-row pt-3">
+                    <div class="form-group col-md-6">
+                        <label for="validationDefault01">
+                            <h4>Your Name</h4>
+                        </label>
+                        <input type="text" class="form-control" id="validationDefault01" value="Marek" name="name"
+                            required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="validationDefault02">
+                            <h4>Your email address</h4>
+                        </label>
+                        <input type="email" class="form-control" name="email" id="validationDefault02"
+                            value="marek@email.cz" required>
+                    </div>
+                </div>
+                <div class="form-group form-row">
+                    <div class="col p-2">
+                        <label for="validationDefault03">
+                            <h4>Subject</h4>
+                        </label>
+                        <input type="text" class="form-control" id="validationDefault03" value="Your subject"
+                            name="subject" required>
+                    </div>
+                </div>
+                <div class="form-group form-row">
+                    <div class="col-md-12 p-2">
+                        <label for="validationTextarea">
+                            <h4>Textarea</h4>
+                        </label>
+                        <textarea class="form-control is-invalid" id="validationTextarea"
+                            placeholder="Required example textarea" name="text" required rows="4">
+                        </textarea>
+
+                        <div class="col-md-12 mt-5">
+                            <button type="submit" class="btn btn-success btn-lg" name="submit" data-toggle="modal"
+                                data-target="#emailSent">SEND</button>
+                        </div>
+                    </div>
+                    <div class="modal" id="emailSent" tabindex="-1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Confirmation</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Your e-mail has been sent. Thank you for your message and I will reply ASAP.</p>
+                                    <p>Have a nice one!</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="footer" class="bg-dark pt-3">
+        <div class="container text-center text-warning mt-3 p-3">
+            <h2>Radek Šibinský</h2>
+            <p>
+                <a href="#" target="_blank" rel="noopener noreferrer"><i
+                        class="fab fa-linkedin text-danger fa-3x mt-2 p-2"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><i
+                        class="fab fa-github-square text-danger fa-3x mt-2 p-2"></i></a><br>
+                <span class="p-5">Made with</span> <br>
+                <img title="HTML5" class="skill-logo my-2" src="images/Skills/html5.png" alt="HTML5" width="30px"
+                    height="30px" />
+                <img title="CSS3" class="skill-logo my-2" src="images/Skills/css3.png" alt="CSS3" width="30px"
+                    height="30px" />
+                <img title="bootstrap" class="skill-logo my-2" src="images/Skills/bootstrap.png" alt="bootstrap"
+                    width="30px" height="30px" /><br>
+
+                Copyright © Radek Šibinský
+            </p>
+        </div>
+    </section>
+
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js "
+        integrity=" sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+        crossorigin=" anonymous "></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js "
+        integrity=" sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 "
+        crossorigin=" anonymous "></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js "
+        integrity=" sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF "
+        crossorigin=" anonymous "></script>
+    <!-- skript pro popover -->
+    <!-- <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script> -->
+
+</body>
+
+</html>

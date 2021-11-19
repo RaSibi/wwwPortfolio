@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    // background-color: #897f7d;
+    background-image: linear-gradient(to right, #191919, #fdda3d);
+        
+    
+}
+
+.navbar {
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    // background-color:#191919;
+    background-image: linear-gradient(#191919, #897f7d);
+    .navbar-brand h3 {
+        font-weight: 200;
+        font-size: 2.5rem;
+    }
+    .nav-item {
+        font-size: 1.8rem;
+        
+    }
+    .nav-link:hover {
+        border-bottom: 5px solid #b78947;
+    }
+}
+
+#showcase {
+    background-image: url(../images/hobbies/KalisokNaprostyRelax2.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 750px;
+    position: relative;
+    h1 {
+        font-family: garamond, "Questrial", sans-serif;
+        line-height: 1;
+        font-weight: bolder;
+        font-style: italic;
+        font-size: 60pt;
+        color: #897f7d;
+        background-color:#fdda3d;
+        opacity: .7;
+        border-radius: 30%;
+    }
+    h2 {
+        font-family: "Questrial", sans-serif;
+        line-height: 1;
+        color: #897f7d;
+        background-color:#191919;
+        opacity: .7;
+        border-radius: 30%;
+    }
+    p {
+        font-family: "Questrial", sans-serif;
+        line-height: 1;
+        color: #191919;
+        background-color:#897f7d;
+        opacity: .7;
+        border-radius: 30%;
+    }
+    #overlay {
+        background: rgba(0, 0, 0,.3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    #header {
+        z-index: 2;
+    font-weight: bold;
+    }
+}
+
+
+#skills img {
+    height: 90px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#projectsIkony img {
+    height: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.carousel-caption {
+    background: rgba(0, 0, 0,.6);
+    border-radius: 50%;
+}
+
+#footer {
+    font-weight: 400;
+    background-image: linear-gradient(#897f7d, #191919);
+}
+
+@media(max-width: 992px) {
+    .navbar {
+        background: #191919;
+        .nav-link:hover {
+            border: none;
+        }
+    }
+    #showcase {
+        min-height: 500px;
+        // background-image: none;
+        h1 {
+            font-size: 3.5rem;
+            // font-size: 30pt;
+        }
+        h2 {
+            font-size: 2.5rem;
+            // font-size: 30pt;
+        }
+        p {
+            font-size: 1.2rem;
+            // font-size: 30pt;
+        }
+    }
+}
+@media (max-width: 768px) {
+    #showcase {
+        min-height: 300px;
+        background-image: none;
+    }
+    .navbar {
+        
+        .navbar-brand h3 {
+            font-weight: 100;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+        .nav-item {
+            font-size: 1.2rem;
+            
+        }
+        
+    }
+}
